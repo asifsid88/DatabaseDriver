@@ -1,6 +1,6 @@
-package com.databasedriver.database;
+package com.databasedriver;
 
-public class MongoDB implements Database {
+class MongoDB implements Database {
 	private static MongoDB instance;
 	
 	private MongoDB() {}

@@ -1,6 +1,6 @@
-package com.databasedriver.database;
+package com.databasedriver;
 
-public class Oracle implements Database {
+class Oracle implements Database {
 	private static Oracle instance;
 	
 	private Oracle() {}
