@@ -17,9 +17,6 @@ public class MySQL implements Database {
 			}
 		}
 		
-		
-		
-		
 		return instance;
 	}
 }
