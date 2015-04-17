@@ -1,6 +1,6 @@
 package com.databasedriver.enums;
 
-public enum DatabaseType {
+public enum DatabaseConnectionType {
 	MongoDB,
 	MySQL,
 	Oracle;
