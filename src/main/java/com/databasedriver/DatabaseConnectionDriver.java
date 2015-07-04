@@ -5,7 +5,6 @@ import com.databasedriver.enums.DatabaseConnectionType;
 public class DatabaseConnectionDriver {
 	private static DatabaseConnection mongoDbConnection;
 	private static DatabaseConnection mySqlConnection;
-	private static DatabaseConnection oracleConnection;
 	
 	private DatabaseConnectionDriver() {}
 	
@@ -17,9 +16,6 @@ public class DatabaseConnectionDriver {
 			case MySQL:
 				mySqlConnection = MySQL.getInstance();
 				return mySqlConnection;
-			case Oracle:
-				oracleConnection = Oracle.getInstance();
-				return oracleConnection;
 			default:
 				break;
 		}

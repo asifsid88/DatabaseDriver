@@ -2,8 +2,7 @@ package com.databasedriver.enums;
 
 public enum DatabaseConnectionType {
 	MongoDB,
-	MySQL,
-	Oracle;
+	MySQL;
 	
 	@Override
 	public String toString() {

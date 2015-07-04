@@ -1,0 +1,9 @@
+com/databasedriver/MongoDB.class
+com/databasedriver/MySQL.class
+com/databasedriver/DatabaseConnection.class
+com/databasedriver/enums/DatabaseConnectionType.class
+com/databasedriver/MongoConnectionProperties.class
+com/databasedriver/TestingConnection.class
+com/databasedriver/DatabaseConnectionDriver$1.class
+com/databasedriver/MySQLConnectionProperties.class
+com/databasedriver/DatabaseConnectionDriver.class
